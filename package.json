@@ -20,7 +20,7 @@
     "url": "https://github.com/Mattre7/MyPortfolio/issues"
   },
   "homepage": "https://github.com/Mattre7/MyPortfolio#readme",
-  "proxy": "https://localhost",
+  "proxy": "https://localhost:8080",
   "dependencies": {
     "express": "^4.16.4",
     "express-session": "^1.15.6",
