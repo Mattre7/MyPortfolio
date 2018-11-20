@@ -24,7 +24,7 @@ app.use(bodyParser.json())
 //     app.use(express.static('client/build'))
 // }
 
-app.use('/', require('./routes'))
+app.use('/', require('./routes/message'))
 
 app.use((req, res) => {
     res.sendFile(path.join(__dirname, "./client/build/index.html"))
