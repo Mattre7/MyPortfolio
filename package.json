@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
-    "install": "cd client && npm install"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,10 +19,10 @@
     "url": "https://github.com/Mattre7/MyPortfolio/issues"
   },
   "homepage": "https://github.com/Mattre7/MyPortfolio#readme",
-  "proxy": "https://localhost:8080",
   "dependencies": {
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "morgan": "^1.9.1"
-  }
+  },
+  "proxy": "https://localhost:8080"
 }
